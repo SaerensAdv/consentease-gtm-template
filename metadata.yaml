@@ -1,0 +1,18 @@
+# Community Template Gallery metadata for the ConsentEase CMP template.
+#
+# Verified format (developers.google.com/tag-platform/tag-manager/templates/gallery):
+#   homepage:       URL of the organization's home page
+#   documentation:  URL of the template documentation
+#   versions:       list of { sha, changeNotes } entries; `sha` is the FULL Git
+#                   commit SHA of the release commit in the public GitHub repo.
+#
+# IMPORTANT: `versions` stays commented out until this directory lives in its
+# dedicated public GitHub repository and the release commit actually exists.
+# Never invent a SHA — Google resolves it against the public repository.
+
+homepage: "https://consentease.io"
+documentation: "https://consentease.io/docs/gtm-template"
+
+# versions:
+#   - sha: <full 40-character commit SHA of the submitted release commit>
+#     changeNotes: Initial release. Consent Mode v2 defaults + ConsentEase banner bridge (protocol v1).
