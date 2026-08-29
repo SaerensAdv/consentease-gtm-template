@@ -6,13 +6,13 @@
 #   versions:       list of { sha, changeNotes } entries; `sha` is the FULL Git
 #                   commit SHA of the release commit in the public GitHub repo.
 #
-# IMPORTANT: `versions` stays commented out until this directory lives in its
-# dedicated public GitHub repository and the release commit actually exists.
-# Never invent a SHA — Google resolves it against the public repository.
+# The SHA below is the full release commit in the dedicated public GitHub
+# repository. Never replace it with a short SHA: Google resolves it against
+# the public repository.
 
 homepage: "https://consentease.io"
 documentation: "https://consentease.io/docs/gtm-template"
 
-# versions:
-#   - sha: <full 40-character commit SHA of the submitted release commit>
-#     changeNotes: Initial release. Consent Mode v2 defaults + ConsentEase banner bridge (protocol v1).
+versions:
+  - sha: a54b44d7416a7e6163619262f3c26f70e886ca65
+    changeNotes: Initial release. Consent Mode v2 defaults + ConsentEase banner bridge (protocol v1).
