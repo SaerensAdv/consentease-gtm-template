@@ -5,9 +5,9 @@ the GDPR/CCPA consent management platform. The template loads the ConsentEase
 cookie banner and manages [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent)
 for all Google and consent-aware third-party tags — codeless.
 
-> **Status:** public repository prepared for submission to the Community Template
-> Gallery. Template Editor validation and Google approval are still pending; see
-> the checklist at the bottom.
+> **Status:** public repository and Template Editor validation completed.
+> Community Template Gallery submission and Google approval are still pending;
+> see the checklist at the bottom.
 
 ## What the template does
 
@@ -99,7 +99,7 @@ officially assigns one — never invent it.
       repository (repository root = these files).
 - [x] Confirm `homepage` and `documentation` URLs are live.
 - [x] Fill in `versions` in `metadata.yaml` with the real release commit SHA.
-- [ ] Run all Template Editor tests against the imported `template.tpl`.
+- [x] Run all Template Editor tests against the imported `template.tpl` (17/17 passed).
 - [ ] Submit the repository via the Community Template Gallery.
 - [ ] After approval: record `galleryOwner`/`galleryRepository` in the
       ConsentEase server configuration (see `docs/gtm/api-contract.md`).
